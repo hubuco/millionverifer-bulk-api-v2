@@ -1,4 +1,4 @@
-	<?php
+<?php
 
   define("UPLOAD_URL",   "https://bulkapi.millionverifier.com/bulkapi/v2/upload");
   define("PROGRESS_URL", "https://bulkapi.millionverifier.com/bulkapi/v2/fileinfo");
