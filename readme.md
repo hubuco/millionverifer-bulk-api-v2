@@ -81,3 +81,6 @@ Curl example:
 curl -o report.csv "https://bulkapi.millionverifier.com/bulkapi/v2/download?key=YOUR_API_KEY&file_id=YOUR_FILE_ID&filter=unknown"
 ```
 
+Stop a file: 
+This will cancel the file in progress, and results for already verififed emails can be downloaded in a few seconds.
+https://bulkapi.millionverifier.com/bulkapi/stop/?api_key=[APIKEY]&file_id=[FILEID]
