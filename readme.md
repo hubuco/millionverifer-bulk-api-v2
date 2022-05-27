@@ -83,7 +83,7 @@ curl -o report.csv "https://bulkapi.millionverifier.com/bulkapi/v2/download?key=
 
 ## Stop a file: 
 This will cancel the file in progress, and results for already verififed emails can be downloaded in a few seconds.
-https://bulkapi.millionverifier.com/bulkapi/stop/?api_key=[APIKEY]&file_id=[FILEID]
+https://bulkapi.millionverifier.com/bulkapi/stop/?key=[APIKEY]&file_id=[FILEID]
 
 ## Check your credits via API
 You can check your credits using https://api.millionverifier.com/api/v3/credits?api=API_KEY
